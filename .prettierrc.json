@@ -1,0 +1,13 @@
+{
+	"useTabs": true,
+	"arrowParens": "avoid",
+	"quoteProps": "consistent",
+	"overrides": [
+		{
+			"files": "*.md",
+			"options": {
+				"useTabs": false
+			}
+		}
+	]
+}

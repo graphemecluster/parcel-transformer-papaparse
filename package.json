@@ -1,0 +1,39 @@
+{
+	"name": "parcel-transformer-papaparse",
+	"version": "0.1.0",
+	"description": "Parcel transformer to enable CSV and TSV import",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"build": "tsc"
+	},
+	"engines": {
+		"parcel": "2.x"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/graphemecluster/parcel-transformer-papaparse.git"
+	},
+	"keywords": [
+		"parcel",
+		"transformer",
+		"parcel-transformer",
+		"csv",
+		"tsv",
+		"papaparse"
+	],
+	"author": "graphemecluster",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/graphemecluster/parcel-transformer-papaparse/issues"
+	},
+	"homepage": "https://github.com/graphemecluster/parcel-transformer-papaparse#readme",
+	"dependencies": {
+		"@parcel/plugin": "^2.8.3",
+		"papaparse": "^5.4.0"
+	},
+	"devDependencies": {
+		"typescript": "^4.9.5",
+		"@types/papaparse": "^5.3.7"
+	}
+}
